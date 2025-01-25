@@ -1,4 +1,4 @@
-# Inicializa a variável saldo com o valor 200
+# Inicializa a variável saldo com o valor 
 saldo = 200
 print(saldo)  
 
