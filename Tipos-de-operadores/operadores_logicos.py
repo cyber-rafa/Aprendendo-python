@@ -22,5 +22,5 @@ print(exp1)
 saldo_suficiente = (saldo >= saque and saque <= limite) 
 conta_especial = (conta_especial and saldo >= saque)
 
-exp3 = (saldo_suficiente or conta_especial)
-print(exp3)
+exp4 = (saldo_suficiente or conta_especial)
+print(exp4)
