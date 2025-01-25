@@ -12,7 +12,7 @@ while opcao != 0:
 
 
 
-        
+
 
 
 texto = input("Digite um texto: ")
