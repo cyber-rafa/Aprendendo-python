@@ -1,0 +1,1 @@
+# tupla e a mesma coisa que lista, porem imutavel
