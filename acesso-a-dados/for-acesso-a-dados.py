@@ -10,3 +10,18 @@ contatos = {
 for chave, valor in contatos.items():
     # Imprime a chave e o valor de cada item
     print(chave, valor)
+
+# ta  uma bagunça mas é isso ai
+
+contatos2 = {
+
+    'raulsantos01.@gmail.com': { 'nome': 'Raul', 'telefone': '332-422'},
+
+}
+
+print(contatos2)
+
+copia = contatos2.copy()
+copia['raulsantos01.@gmail.com'] = {'nome': 'rafael' , 'telefone': '332-422'} 
+
+print(copia)
