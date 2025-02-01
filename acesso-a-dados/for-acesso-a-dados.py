@@ -6,9 +6,7 @@ contatos = {
  
 }
 
-telefone = contatos['natalia001.@gmail.com']['telefone']
-print(telefone)
-
-name = contatos['rodrigues01.@gmail.com']['nome']
-print(name)
-
+# Itera sobre os itens do dicionário 'contatos'
+for chave, valor in contatos.items():
+    # Imprime a chave e o valor de cada item
+    print(chave, valor)
