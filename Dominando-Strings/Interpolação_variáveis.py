@@ -3,7 +3,7 @@ idade = 26
 profissao = 'programador'
 linguagem = 'python'
 saldo = 32.545
-
+\
 dados = {'name': 'Thais', 'idade': 26}
 
 print('meu nome e %s, tenho %d anos' % (name, idade))
