@@ -4,19 +4,6 @@ contatos = {
 
  
 }
-
-teste = contatos.get['carro']
-
-
-# Obtém o valor associado à chave 'carro' no dicionário 'contatos'.
-# Se a chave não existir, retorna None.
-teste = contatos.get('carro')
-
-# Imprime o valor obtido acima.
-print(teste)
-
-
-
 # Obtém o valor associado à chave 'chave' no dicionário 'contatos'.
 # Se a chave não existir, retorna um dicionário vazio {}.
 teste = contatos.get('chave', {})
