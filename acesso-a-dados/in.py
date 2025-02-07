@@ -12,7 +12,7 @@ resultado =  'rafael01@gamil.com' in contatos
 
 print(resultado)
 
-resultado =  'idade'  in contatos['natalia001.@gmail.com']
+resultado =  'idade'  in contatos['natalia001.@gmail.com']  
 
 print(resultado)
 
