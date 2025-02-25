@@ -22,3 +22,10 @@ class bicicleta:
 
 b1 = bicicleta('caloi', 'elite', 'vermelha', 1000)
 print(b1)
+
+b2 = bicicleta('monark', 'elite', 'azul', 2000)
+print(b2)
+
+b1.pedalar()
+b1.buzinar()
+b1.para()
