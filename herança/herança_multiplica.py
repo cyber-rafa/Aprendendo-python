@@ -17,5 +17,5 @@ class leao(animal):
 class ave(animal):
     pass
 
-class onitorrinco(animal, mamifero, ave):
+class onitorrinco(mamifero, ave):
     pass
