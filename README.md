@@ -20,8 +20,6 @@ Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da
    ```
    git clone https://github.com/seu-usuario/Aprendendo-python.git
    ```
-3. Navegue até a pasta do exemplo desejado
-   ```
 
 ## Tópicos Abordados
 
