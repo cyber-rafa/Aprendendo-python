@@ -3,7 +3,7 @@ class Passaro:
         print('Voando...')
 
 class Pardal(Passaro):
-    def voar(self):
+    def voar(self): 
         super().voar()
         
 #um mal exemplo de herança e polimofismo
