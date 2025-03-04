@@ -1,21 +1,33 @@
-# No "TODO", abaixo: Crie a função 'soma_tupla' para receber uma tupla de números inteiros como argumento:
-def soma_tupla(tupla):
-    return sum(tupla)
+class Veiculo:
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+    
+    def ligar(self):
+        return f"{self.marca} {self.modelo} está ligado!"
 
-if __name__ == "__main__":
-    # Lista original de strings
-    lista_strings = ["1", "2", "3", "4", "5"]
+class Voador:
+    def __init__(self, altitude_maxima):
+        self.altitude_maxima = altitude_maxima
     
-    # 1. Converta cada string na "lista_strings" em um número inteiro utilizando a função "int()"
-    # 2. Use a função "map()" para aplicar a função "int()" a cada elemento da "lista_strings"
-    # 3. Armazene o resultado em uma variável chamada "elemento"
-    elemento = map(int, lista_strings)
+    def voar(self):
+        return f"Voando a {self.altitude_maxima} metros de altura!"
+
+class CarroVoador(Veiculo, Voador):
+    def __init__(self, marca, modelo, altitude_maxima):
+        Veiculo.__init__(self, marca, modelo)
+        Voador.__init__(self, altitude_maxima)
     
-    # Converte para tupla para usar com soma_tupla
-    elementos = tuple(elemento)
-    
-    # Calcular o resultado
-    resultado = soma_tupla(elementos)
-    
-    # Mostrar o resultado
-    print(f"A soma dos elementos da tupla é: {resultado}")
+    def mostrar_info(self):
+        return f"""
+        Carro Voador:
+        Marca: {self.marca}
+        Modelo: {self.modelo}
+        Altitude Máxima: {self.altitude_maxima}m
+        """
+
+carro_voador = CarroVoador("FlyingCar", "X-1000", 1000)
+
+print(carro_voador.ligar())
+print(carro_voador.voar())
+print(carro_voador.mostrar_info())
