@@ -6,12 +6,6 @@ Um repositório dedicado ao aprendizado da linguagem Python, desde conceitos bá
 
 Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da linguagem Python. O conteúdo é organizado de forma progressiva, permitindo um aprendizado gradual e consistente.
 
-## Estrutura do Repositório
-
-- **exemplos/**: Códigos de exemplo para diversos conceitos
-- **exercicios/**: Problemas práticos para aplicar conhecimentos
-- **projetos/**: Implementações de projetos completos
-- **herança/**: Exemplos de herança e programação orientada a objetos
 
 ## Como Executar
 
@@ -20,6 +14,10 @@ Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da
    ```
    git clone https://github.com/seu-usuario/Aprendendo-python.git
    ```
+3. Execute os exemplos:
+   ```
+   python herança/herança_multiplica.py
+   ```
 
 ## Tópicos Abordados
 
@@ -27,16 +25,13 @@ Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da
 - Estruturas de controle (condicionais e loops)
 - Funções e módulos
 - Programação orientada a objetos
+  - Classes e objetos
+  - Herança simples e múltipla
+  - Encapsulamento
 - Manipulação de arquivos
 - Bibliotecas populares
 
-## Contribuição
 
-Contribuições são bem-vindas! Se você deseja adicionar exemplos, corrigir erros ou melhorar a documentação, sinta-se à vontade para:
-
-1. Fazer um fork do repositório
-2. Criar uma branch para sua feature
-3. Enviar um pull request
 
 ## Licença
 
