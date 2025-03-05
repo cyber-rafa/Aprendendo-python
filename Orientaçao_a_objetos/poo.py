@@ -1,31 +1,30 @@
-class bicicleta:
-    def __init__(self, marca, modelo, cor, valor):
-        self.marca = marca
-        self.modelo = modelo
-        self.cor = cor
-        self.valor = valor
+class Carro:
+  # Método construtor
+  def __init__(self, marca, modelo):
+    self.marca = marca
+    self.modelo = modelo
+    self.ligado = False
+  
+  # Métodos da classe
+  def ligar(self):
+    if not self.ligado:
+      self.ligado = True
+      print(f"{self.marca} {self.modelo} foi ligado!")
+    else:
+      print("O carro já está ligado!")
+  
+  def desligar(self):
+    if self.ligado:
+      self.ligado = False
+      print(f"{self.marca} {self.modelo} foi desligado!")
+    else:
+      print("O carro já está desligado!")
 
-    
-    def pedalar(self):
-        print('pedalando')
+# Criando objetos (instâncias) da classe
+meu_carro = Carro("Toyota", "Corolla")
+outro_carro = Carro("Honda", "Civic")
 
-    def buzinar(self):
-        print('bi bi')
-
-    def para(self):
-        print('parando')
-        print('parou')
-
-    def __str__(self):
-        return f"{self.__class__.__name__}: {', '.join([f'{chave} = {valor}' for chave, valor in self.__dict__.items()])}"
-
-
-b1 = bicicleta('caloi', 'elite', 'vermelha', 1000)
-print(b1) 
-
-b2 = bicicleta('monark', 'elite', 'azul', 2000)
-print(b2)
-
-b1.pedalar()
-b1.buzinar()
-b1.para()
+# Usando os métodos
+meu_carro.ligar()
+meu_carro.ligar()  # Tentando ligar novamente
+meu_carro.desligar()
