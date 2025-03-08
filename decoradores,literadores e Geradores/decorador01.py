@@ -6,8 +6,9 @@ def mensagem_longa(nome):
     print('executando mensagem longa')
     return f'Olá {nome}, tudo bem?'
 
-def executa(funcao):
+def executa(funcao, nome):
     print('executando')
-    return funcao('Maria') 
+    return funcao(nome) 
 
-print(executa(mensagem_longa))   
+print(executa(mensagem, 'thais'))
+print(executa(mensagem_longa, 'Lucas'))   
