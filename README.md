@@ -1,17 +1,20 @@
-# Aprendendo Python
+# 🐍 Aprendendo Python
 
-Um repositório dedicado ao aprendizado da linguagem Python, desde conceitos básicos até tópicos avançados.
+Um repositório dedicado ao aprendizado da linguagem Python, desde conceitos básicos até tópicos avançados, incluindo animações e visualizações.
 
-## Sobre
+<div align="center">
+  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="300" alt="Python Programming">
+</div>
 
-Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da linguagem Python. O conteúdo é organizado de forma progressiva, permitindo um aprendizado gradual e consistente.
+## 📚 Sobre
 
+Este projeto contém exemplos, exercícios e recursos para auxiliar no estudo da linguagem Python. O conteúdo é organizado de forma progressiva, permitindo um aprendizado gradual e consistente, desde fundamentos até aplicações avançadas como animações e visualizações de dados.
 
-## Como Executar
+## 🚀 Como Executar
 
 1. Certifique-se de ter o Python instalado (versão 3.6 ou superior)
 2. Clone este repositório:
-   ```
+   ```bash
    git clone https://github.com/seu-usuario/Aprendendo-python.git
    ```
 3. Execute os exemplos:
