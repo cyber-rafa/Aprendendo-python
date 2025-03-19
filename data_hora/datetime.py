@@ -1,12 +1,16 @@
-from datetime import date
+from datetime import date, datetime , time
 
-# Create a specific date
 d = date(2020, 10, 2)
-print(f"The date is: {d}")
+print(f"A date e : {d}")
 
-# Get today's date
-today = date.today()
-print(f"Today's date is: {today}")
+hora = time(12, 30, 20)
+print(f"Hora: {hora}")
 
-# Format dates
-print(f"Today's date formatted (DD/MM/YYYY): {today:%d/%m/%Y}")
+
+today = datetime.today()
+print(f"data de hoje: {today}")
+
+data_horario = datetime(2002, 6, 12, 12, 30, 20, 102)
+print(f"Data e horário: {data_horario}")
+
+print(f"(DD/MM/YYYY): {today:%d/%m/%Y}")
